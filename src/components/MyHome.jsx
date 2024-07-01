@@ -1,33 +1,11 @@
 import React from 'react';
 import Cunde from '../assest/hero-abs-2.png'
 import App from '../App';
+import { MyTask } from '../Task'
 
 const MyHome = ({x}) => {
 
-  let MyTask = [
 
-    {
-        id:1,
-        name: 'John',
-        state:'Lagos'
-    },
-    {
-        id:2,
-        name: 'Victor',
-        state:'Delta'
-    },
-    {
-        id:3,
-        name: 'Joy',
-        state:'Abia'
-    },
-    {
-        id:4,
-        name: 'Lola',
-        state:'Osun'
-    },
-   
-]
   return (
     <>
      <div>
